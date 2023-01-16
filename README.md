@@ -1,19 +1,15 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://discord.js.org"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
+    <a href="https://discord.js.org">concordia</a>
   </p>
   <br />
   <p>
-    <a href="https://discord.gg/bRCvFy9"><img src="https://img.shields.io/discord/222078108977594368?color=7289da&logo=discord&logoColor=white" alt="Discord server" /></a>
-    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/v/discord.js.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/discord.js.svg?maxAge=3600" alt="NPM downloads" /></a>
-    <a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/workflows/Testing/badge.svg" alt="Build status" /></a>
-    <a href="https://david-dm.org/discordjs/discord.js"><img src="https://img.shields.io/david/discordjs/discord.js.svg?maxAge=3600" alt="Dependencies" /></a>
-    <a href="https://www.patreon.com/discordjs"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a>
+    <a href="https://www.npmjs.com/package/concordia"><img src="https://img.shields.io/npm/v/concordia.svg?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/concordia"><img src="https://img.shields.io/npm/dt/concordia.svg?maxAge=3600" alt="NPM downloads" /></a>
   </p>
   <p>
-    <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+    <a href="https://nodei.co/npm/concordia/"><img src="https://nodei.co/npm/concordia.png?downloads=true&stars=true" alt="npm installnfo" /></a>
   </p>
 </div>
 
@@ -31,8 +27,8 @@
 
 ## About
 
-discord.js is a powerful [Node.js](https://nodejs.org) module that allows you to easily interact with the
-[Discord API](https://discord.com/developers/docs/intro).
+concordia is a powerful [Node.js](https://nodejs.org) module that allows you to easily interact with the
+[Discord API](https://discord.com/developers/docs/intro), based on [discord.js](https://discord.js.org) v12, aimed at maintaining and modernizing it.
 
 - Object-oriented
 - Predictable abstractions
@@ -44,9 +40,9 @@ discord.js is a powerful [Node.js](https://nodejs.org) module that allows you to
 **Node.js 12.0.0 or newer is required.**  
 Ignore any warnings about unmet peer dependencies, as they're all optional.
 
-Without voice support: `npm install discord.js`  
-With voice support ([@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)): `npm install discord.js @discordjs/opus`  
-With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install discord.js opusscript`
+Without voice support: `npm install concordia`  
+With voice support ([@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)): `npm install concordia @discordjs/opus`  
+With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install concordia opusscript`
 
 ### Audio engines
 
@@ -67,7 +63,7 @@ For production bots, using @discordjs/opus should be considered a necessity, esp
 ## Example usage
 
 ```js
-const Discord = require('discord.js');
+const Discord = require('concordia');
 const client = new Discord.Client();
 
 client.on('ready', () => {
